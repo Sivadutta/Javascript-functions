@@ -1,0 +1,11 @@
+a[aria-label="Change your password"] {   
+	}	
+	a[aria-label="Change your password"]:before{
+	content:"Password";
+	font-weight: bold!important;
+    margin: 10px 0px 10px 0px;
+	border-bottom: 2px solid black;
+	display:block;
+	color: black;	
+  cursor: not-allowed;
+	}
